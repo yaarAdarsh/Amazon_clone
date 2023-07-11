@@ -142,8 +142,19 @@ span{
 }
 
 @keyframes scroll{
-    from{background-image: url(hero_image.jpg);}
-    to{background-image: url(hero_image_2.jpg);}
+    0%{background-image: url(hero_image.jpg);}
+    12%{background-image: url(hero_image.jpg);}
+    16%{background-image: url(hero_image_2.jpg);}
+    28%{background-image: url(hero_image_2.jpg);}
+    32%{background-image: url(hero_image_3.jpg);}
+    44%{background-image: url(hero_image_3.jpg);}
+    48%{background-image: url(hero_image_4.jpg);}
+    60%{background-image: url(hero_image_4.jpg);}
+    64%{background-image: url(hero_image_5.jpg);}
+    76%{background-image: url(hero_image_5.jpg);}
+    80%{background-image: url(hero_image_6.jpg);}
+    96%{background-image: url(hero_image_6.jpg);}
+    100%{background-image: url(hero_image.jpg);}
 }
 
 .hero_section{
@@ -153,7 +164,7 @@ span{
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    /* animation: scroll 2s ease-in-out 5s infinite normal; */
+    animation: scroll 30s ease-in-out 0s infinite normal;
 }
 
 .hero_msg{
